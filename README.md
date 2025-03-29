@@ -54,8 +54,8 @@ If you're using a **paid copy of iBackup Viewer (Pro)**:
 Update `DB_PATH` in the script if needed:
 
 ```python
-DB_PATH = Path("~/Desktop/sarah ipad notes/notes.sqlite").expanduser()
-OUTPUT_DIR = Path("~/Desktop/sarah ipad notes/exported").expanduser()
+DB_PATH = Path("~/Desktop/ipad notes/notes.sqlite").expanduser()
+OUTPUT_DIR = Path("~/Desktop/ipad notes/exported").expanduser()
 ```
 
 Then just run it:
@@ -71,18 +71,18 @@ pythrun extract_notes.py
 Each note is saved as a `.md` file like:
 
 ```
-2020-10-12_Yesterday_I_had_for_prebiotics.md
+2020-10-12_Yesterday_I_had.md
 ```
 
 Contents look like:
 
 ```markdown
-# Yesterday I had for prebiotics...
+# Yesterday I had...
 
 **Created:** 2020-10-12T10:01:48.313575  
 **Modified:** 2020-10-13T12:07:13.517501
 
-Yesterday I had for prebiotics potato salad...
+Yesterday I had potato salad...
 ```
 
 ---
@@ -106,17 +106,17 @@ Yesterday I had for prebiotics potato salad...
 
 ---
 
-```markdown
----
 
 ## 🔍 Comparing Two Backups
 
 To compare two different exported note sets, place them in folders like:
 
+
 ```
 old ipad notes/exported/
 new gmail synced notes/exported/
 ```
+
 
 Then run:
 
