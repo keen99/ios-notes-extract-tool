@@ -1,3 +1,20 @@
+
+
+some lightweight tooling for extracting and converting ios/ipad/iphone notes.app notes to markdown
+
+this will likely not work _for you_ without some work, but here they are.  these were one-time-use.
+
+the source was ios10 or so.  copied the sqlite from a decrypted backup and used that as the source.
+
+
+
+
+
+
+
+some generated docu:
+
+
 # 📓 iOS Notes Export Tool
 
 This tool extracts and converts Apple Notes from a decrypted `notes.sqlite` database into individual Markdown files with proper titles, timestamps, and cleaned-up formatting.
